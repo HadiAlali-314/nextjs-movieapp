@@ -1,0 +1,23 @@
+/* title */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.title i {
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-left: 35px;
+}
+
+.title h1 {
+  margin-top: 15px;
+  color: #ececec;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

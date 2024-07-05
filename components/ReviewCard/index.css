@@ -1,0 +1,44 @@
+.review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 12px;
+  margin: 0 34px;
+  margin-bottom: 12px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.left-side img {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 44px;
+}
+.left-side p {
+  color: #0296e5;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 44px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right-side h1,
+.right-side p {
+  text-align: left;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

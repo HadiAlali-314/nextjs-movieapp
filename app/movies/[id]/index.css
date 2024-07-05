@@ -1,0 +1,218 @@
+/* title */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header i {
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-left: 35px;
+}
+
+.header h1 {
+  margin-top: 15px;
+  color: #ececec;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.details-container {
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.backdrop {
+  width: 375px;
+  height: 210.938px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.movie-details {
+  position: absolute;
+  top: 151px;
+  left: 29px;
+  z-index: 100;
+}
+
+.movie-poster img {
+  width: 95px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.rating-container {
+  position: absolute;
+  top: 178px;
+  right: 11px;
+  display: flex;
+  padding: 4px 8px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: rgba(37, 40, 54, 0.32);
+  backdrop-filter: blur(10px);
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+}
+.rating p {
+  color: #ff8700;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.rating i {
+  color: #ff8700;
+
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 210px;
+  height: 48px;
+  text-align: left;
+  position: absolute;
+  top: 223px;
+  right: 29px;
+  z-index: 100;
+}
+.title h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  display: inline-flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.release-date,
+.time,
+.genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.release-date i,
+.time i,
+.genre i {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  color: #92929d;
+}
+
+.release-date h4,
+.time h4,
+.genre h4 {
+  color: var(--Grey, #92929d);
+  font-feature-settings: "clig" off, "liga" off;
+  /* H6/Medium */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.vector {
+  display: inline-flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: darkgray;
+}
+
+/* tabs bar */
+
+.tabs-bar {
+  margin-left: 27px;
+  width: 359px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  justify-items: center;
+}
+
+.tab-button {
+  font-family: "Poppins", sans-serif;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.active {
+  border-bottom: 4px solid #3a3f47;
+}
+.about-section {
+  text-align: left;
+  margin: 0px 29px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cast-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 29px;
+  gap: 29px;
+}
+.cast-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.cast-card h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

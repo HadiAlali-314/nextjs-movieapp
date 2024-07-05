@@ -1,0 +1,36 @@
+.statusBar {
+  display: flex;
+  width: 375px;
+  height: 43px;
+  padding: 11px 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  background: linear-gradient(
+    174deg,
+    rgba(255, 255, 255, 0.01) 4.53%,
+    rgba(255, 255, 255, 0) 95.34%
+  );
+}
+.barItems {
+  margin-top: 5px;
+  width: 327px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.time {
+  fill: var(--text-light-white, #fff);
+  margin-right: 225px;
+}
+
+.rightSide {
+  display: flex;
+  align-items: flex-end;
+}
+.signal,
+.battery,
+.wifi {
+  margin-left: 4px;
+}
